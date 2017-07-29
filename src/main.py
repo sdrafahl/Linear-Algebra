@@ -1,4 +1,5 @@
 from __init__ import *
 
-matrix = Matrix(3,4)
+matrix = Matrix(4,4)
+matrix.insertValue(0, 0, 20)
 matrix.printMatrix()
